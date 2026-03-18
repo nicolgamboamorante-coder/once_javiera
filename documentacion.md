@@ -21,7 +21,7 @@
 **strong**: para resaltar una palabra clave.
 
 # Árbol DOM 
-
+```
 html
 ├── head
 │   ├── meta
