@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Torneo de Videojuegos</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid rgb(10, 10, 10);
+            padding: 8px;
+            text-align: center;
+        }
+        thead {
+            background-color: #184e6d;
+            color: rgb(240, 238, 238);
+        }
+        tbody tr:nth-child(even) {
+            background-color: #ff42c644;
+        }
+        tfoot {
+            background-color: #c4c9af;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <!-- Título -->
+    <caption><strong>Clasificación del Torneo</strong></caption>
+
+    <!-- ENCABEZADO -->
+    <thead>
+        <tr>
+            <th colspan="7">Tabla General de Equipos</th>
+        </tr>
+        <tr>
+            <th>Región</th>
+            <th>Equipo</th>
+            <th>J</th>
+            <th>G</th>
+            <th>P</th>
+            <th>Puntos</th>
+            <th>Estado</th>
+        </tr>
+    </thead>
+
+    <!-- CUERPO -->
+    <tbody>
+        <!-- Región Norte -->
+        <tr>
+            <td rowspan="2">Norte</td>
+            <td>Equipo tito</td>
+            <td>10</td>
+            <td>8</td>
+            <td>2</td>
+            <td>980</td>
+            <td>Clasificado</td>
+        </tr>
+        <tr>
+            <td>Equipo bigotes</td>
+            <td>10</td>
+            <td>6</td>
+            <td>4</td>
+            <td>870</td>
+            <td>Clasificado</td>
+        </tr>
+
+        <!-- Región Sur -->
+        <tr>
+            <td rowspan="2">Sur</td>
+            <td>Equipo pelotudos</td>
+            <td>10</td>
+            <td>7</td>
+            <td>3</td>
+            <td>920</td>
+            <td>Clasificado</td>
+        </tr>
+        <tr>
+            <td>Equipo tralalero</td>
+            <td>10</td>
+            <td>5</td>
+            <td>5</td>
+            <td>750</td>
+            <td>Eliminado</td>
+        </tr>
+    </tbody>
+
+    <!-- PIE -->
+    <tfoot>
+        <tr>
+            <td colspan="7">Campeón: Equipo Alpha | Total participantes: 4</td>
+        </tr>
+    </tfoot>
+
+</table>
+
+</body>
+</html>
