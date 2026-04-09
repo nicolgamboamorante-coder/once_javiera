@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Tarjeta de Perfil</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    
+    .tarjeta {
+      background: white;
+      width: 300px;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    
+    .perfil-header img {
+      width: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    
+    .perfil-header h2 {
+      font-size: 20px;
+    }
+    
+    .perfil-header span {
+      color: gray;
+      font-size: 14px;
+    }
+    
+    .bio {
+      margin: 10px 0;
+      font-size: 14px;
+      color: #555;
+    }
+    
+    .estadisticas {
+      display: flex;
+      justify-content: space-between;
+      margin: 15px 0;
+    }
+    
+    .estadisticas div {
+      text-align: center;
+    }
+    
+    .estadisticas strong {
+      display: block;
+      font-size: 16px;
+    }
+    
+    .estadisticas span {
+      font-size: 12px;
+      color: gray;
+    }
+    
+    .botones {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    
+    .botones button {
+      flex: 1;
+      padding: 8px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    
+    .seguir {
+      background: #007bff;
+      color: white;
+    }
+    
+    .mensaje {
+      background: #e0e0e0;
+    }
+    
+    .miniaturas {
+      display: flex;
+      gap: 5px;
+    }
+    
+    .miniaturas img {
+      width: 100%;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="tarjeta">
+    
+    <!-- Perfil -->
+    <div class="perfil-header">
+      <img src="https://picsum.photos/150?woman" alt="avatar">
+      <h2>Nicol Gamboa</h2>
+      <span>@nicol_gamboa03</span>
+    </div>
+    
+    <!-- Bio -->
+    <p class="bio">
+      Me encanta viajar ✈️ y conocer culturas y lugares nuevos 🌍
+    </p>
+    
+    <!-- Estadísticas -->
+    <div class="estadisticas">
+      <div>
+        <strong>10</strong>
+        <span>Viajes</span>
+      </div>
+      <div>
+        <strong>1.3M</strong>
+        <span>Seguidores</span>
+      </div>
+      <div>
+        <strong>0</strong>
+        <span>Siguiendo</span>
+      </div>
+    </div>
+    
+    <!-- Botones -->
+    <div class="botones">
+      <button class="seguir">Seguir</button>
+      <button class="mensaje">Mensaje</button>
+    </div>
+    
+    <!-- Miniaturas -->
+    <div class="miniaturas">
+      <!-- Puerto Rico -->
+      <img src="https://picsum.photos/100?puertorico" alt="Puerto Rico">
+      <!-- Francia -->
+      <img src="https://picsum.photos/101?francia" alt="Francia">
+      <!-- República Dominicana -->
+      <img src="https://picsum.photos/102?rd" alt="RD">
+    </div>
+    
+  </div>
+
+</body>
+</html>
